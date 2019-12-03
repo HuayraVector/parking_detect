@@ -1,0 +1,62 @@
+{
+  "_from": "tfjs-yolo@^0.0.3",
+  "_id": "tfjs-yolo@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-78kJF6Z0OARt+GmvxkMXGfqzwXKdj13/CjYBjJu+Y+uo5wRIQV2fO4Jb85gilQwFhtTssGnp5AfMtNrM8fYVPQ==",
+  "_location": "/tfjs-yolo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "tfjs-yolo@^0.0.3",
+    "name": "tfjs-yolo",
+    "escapedName": "tfjs-yolo",
+    "rawSpec": "^0.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tfjs-yolo/-/tfjs-yolo-0.0.3.tgz",
+  "_shasum": "446ee6fd6a56784afa856ff748f86a30f7f02151",
+  "_spec": "tfjs-yolo@^0.0.3",
+  "_where": "/Users/apple/Documents/00YOLO/tfjs-yolo-demo-master/docs",
+  "author": {
+    "name": "Qian Sha"
+  },
+  "bugs": {
+    "url": "https://github.com/shaqian/tfjs-yolo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "YOLO v3 and Tiny YOLO v1, v2, v3 object detection with Tensorflow.js",
+  "devDependencies": {
+    "@tensorflow/tfjs": "^0.13.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "homepage": "https://github.com/shaqian/tfjs-yolo#readme",
+  "keywords": [
+    "tfjs",
+    "tensorflow",
+    "yolo",
+    "tiny-yolo"
+  ],
+  "license": "MIT",
+  "main": "dist/index.bundle.js",
+  "name": "yolotiny",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqian/tfjs-yolo.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "version": "0.0.3"
+}
